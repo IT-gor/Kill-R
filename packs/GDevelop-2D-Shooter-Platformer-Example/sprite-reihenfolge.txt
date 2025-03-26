@@ -1,0 +1,1 @@
+Reihenfolge: idle 5, walk 5, jump 3, shoot 5

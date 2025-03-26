@@ -132,7 +132,6 @@ scale = Vector2( 4.47691, -3.04494 )
 shape = SubResource( 7 )
 
 [connection signal="hit" from="Hurtbox" to="." method="_on_Hurtbox_hit"]
-[connection signal="area_entered" from="Hitbox" to="." method="_on_Hitbox_area_entered"]
 
 [editable path="Hurtbox"]
 [editable path="Hitbox"]

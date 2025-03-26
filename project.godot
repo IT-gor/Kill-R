@@ -10,17 +10,11 @@ config_version=4
 
 _global_script_classes=[ {
 "base": "Resource",
-"class": "MainInstances",
-"language": "GDScript",
-"path": "res://MainInstances.gd"
-}, {
-"base": "Resource",
 "class": "PlayerStats",
 "language": "GDScript",
 "path": "res://Player/PlayerStats.gd"
 } ]
 _global_script_class_icons={
-"MainInstances": "",
 "PlayerStats": ""
 }
 
@@ -35,6 +29,7 @@ config/icon="res://icon.png"
 Utils="*res://Utils.gd"
 ResourceLoader="*res://ResourceLoader.gd"
 SoundFX="*res://Music and Sounds/SoundFX.tscn"
+Global="*res://global.gd"
 
 [display]
 
@@ -104,7 +99,7 @@ ui_down={
 }
 fire={
 "deadzone": 0.5,
-"events": [ Object(InputEventMouseButton,"resource_local_to_scene":false,"resource_name":"","device":0,"alt":false,"shift":false,"control":false,"meta":false,"command":false,"button_mask":0,"position":Vector2( 0, 0 ),"global_position":Vector2( 0, 0 ),"factor":1.0,"button_index":1,"pressed":false,"doubleclick":false,"script":null)
+"events": [ Object(InputEventMouseButton,"resource_local_to_scene":false,"resource_name":"","device":0,"alt":false,"shift":false,"control":false,"meta":false,"command":false,"button_mask":0,"position":Vector2( 0, 0 ),"global_position":Vector2( 0, 0 ),"factor":1.0,"button_index":1,"canceled":false,"pressed":false,"doubleclick":false,"script":null)
  ]
 }
 
@@ -115,7 +110,6 @@ fire={
 2d_physics/layer_3="PlayerHurtbox"
 2d_physics/layer_4="EnemyHurtbox"
 2d_physics/layer_5="PlayerVisibility"
-2d_physics/layer_6="BulletHurtbox"
 
 [physics]
 
