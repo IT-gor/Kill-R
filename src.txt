@@ -1,0 +1,15 @@
+src code: (own transcription)
+https://heartbeast-gamedev-school.teachable.com/p/1-bit-godot-course-by-heartbeast
+
+src of game assets (sprites, tile maps, etc.):
+https://rockymullet.itch.io/forest-gunner-artpack
+https://secrethideout.itch.io/team-wars-platformer-battle
+https://wishforge.itch.io/gdevelop-2d-shooter-platformer-example
+
+Sounds:
+https://edwardcufaude.itch.io/soundfxpack1
+
+
+(itch.io)
+
+
